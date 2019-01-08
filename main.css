@@ -1,0 +1,25 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: darkblue;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+@media screen and (min-width: 450px) {
+    .project-tile {
+        background-color: burlywood;
+    }
+}
+
+#welcome-section {
+    height: 100vh;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    display: block;
+    top: 0;
+    height: 5%;
+}
